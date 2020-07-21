@@ -42,7 +42,7 @@
 }
 
 
-@media screen and (min-width:550px){
+@media screen and (min-width:650px){
     .bigScreen{
         display: flex;
     }
