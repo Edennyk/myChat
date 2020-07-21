@@ -13,8 +13,7 @@
 
 *{
   box-sizing: border-box;
-  /* 박스안에 패딩을 추가해도 박스 사이즈가 바뀌지 않음, 
-  컨텐츠가 박스 밖으로 밀려 나가지 않음  */
+ 
 }
 
 
@@ -30,6 +29,7 @@ a{
   color: inherit;
   text-decoration: none;
 }
+
 
 placeholder{color:#a9b2c7;}
 
