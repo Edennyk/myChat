@@ -1,5 +1,7 @@
 # myChat
 mesaage app design
+[Link to DEMO](https://edennyk.github.io/myChat/)
+
 ## Skills
 HTML CSS
 ## Descriptons
