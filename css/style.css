@@ -31,16 +31,9 @@ a{
   text-decoration: none;
 }
 
-::-webkit-input-placeholder,
-::-moz-placeholder{color:#a9b2c7;}
+placeholder{color:#a9b2c7;}
 
-/* #topbg{
-  
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  background-image: linear-gradient(to right,#43cea2,#5b86e5);
-} */
+
 /* main animation effect, slide bottom to up */
 /* @keyframes fadeIn{
   from{
