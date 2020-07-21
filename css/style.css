@@ -13,8 +13,7 @@
 
 *{
   box-sizing: border-box;
-  /* 박스안에 패딩을 추가해도 박스 사이즈가 바뀌지 않음, 
-  컨텐츠가 박스 밖으로 밀려 나가지 않음  */
+ 
 }
 
 
@@ -31,16 +30,10 @@ a{
   text-decoration: none;
 }
 
-::-webkit-input-placeholder,
-::-moz-placeholder{color:#a9b2c7;}
 
-/* #topbg{
-  
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  background-image: linear-gradient(to right,#43cea2,#5b86e5);
-} */
+placeholder{color:#a9b2c7;}
+
+
 /* main animation effect, slide bottom to up */
 /* @keyframes fadeIn{
   from{
