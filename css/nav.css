@@ -1,0 +1,59 @@
+.nav{
+    position: fixed; 
+    /* fixed need width */
+    width: 100%;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    padding: 20px 50px;
+    color:#9ba6b8;
+   /* background-image: linear-gradient(90deg,#74ebd5 0%,#9face6 100%); */
+   border-top: 1px solid #a9b2c7;
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav i{
+    font-size: 22px;
+}
+.nav i:hover{
+    color:#9face6;
+}
+
+.nav .nav__list-link{
+
+    /*  parent positon for badge*/
+    position: relative;
+}
+
+/* 8개의 메세지 갯수 */
+.nav .nav__badge{
+    position: absolute;
+    top:-7px;
+    right:-7px;
+    color:white;
+    font-size: 10px;
+    background-color:#74ebd5;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/* navbar slide animation */
+/* @keyframes showNavBar{
+    from{
+        transform: translateY(80px);
+    }to{
+        transform: none;
+    }
+}
+
+.nav{
+    animation: showNavBar .5s ease-out;
+} */

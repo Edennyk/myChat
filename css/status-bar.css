@@ -1,0 +1,22 @@
+/* 맨위에 핸드폰 관련 디스플레이  */
+
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+    /*chat 타이틀과 위에 사이 간격*/
+    opacity: .7;
+   
+}
+
+/* 모든 아이콘 사이즈 변경 */
+.status-bar i {
+    font-size: 14px;
+}
+/* 배터리 레벨과 다른 아이콘 간격*/
+/* .status-bar .status-bar_battery-level{
+    margin-left: 3px;
+} */
+.status-bar span{
+    font-size: 14px;
+}

@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav.css";
+@import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
+@import "bigscreen.css";
+
+*{
+  box-sizing: border-box;
+  /* 박스안에 패딩을 추가해도 박스 사이즈가 바뀌지 않음, 
+  컨텐츠가 박스 밖으로 밀려 나가지 않음  */
+}
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  padding: 10px 20px;
+  color:#020202;
+  
+} 
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-input-placeholder,
+::-moz-placeholder{color:#a9b2c7;}
+
+/* #topbg{
+  
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-image: linear-gradient(to right,#43cea2,#5b86e5);
+} */
+/* main animation effect, slide bottom to up */
+/* @keyframes fadeIn{
+  from{
+    opacity:0;
+      transform: translateY(50PX);
+  }to{
+    opacity:1;
+    transform: none;
+  }
+}
+
+main{
+  animation: fadeIn .5s ease-in-out;
+} */
