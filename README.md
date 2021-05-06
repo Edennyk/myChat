@@ -1,5 +1,5 @@
 # myChat
-mesaage app design
+message app design
 [Link to DEMO](https://edennyk.github.io/myChat/)
 
 ## Skills
